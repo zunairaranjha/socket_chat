@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  username: postgres
+  password: "Cfd@11044"
+  port: 5432
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: rails-chat_development
+
+production:
+  <<: *default
+  database: rails-chat_production

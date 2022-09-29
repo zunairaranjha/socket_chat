@@ -1,0 +1,15 @@
+current directory: /Users/zunairaranjha/Desktop/redis_chat/vendor/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/zunairaranjha/.rvm/rubies/ruby-3.1.2/bin/ruby -I /Users/zunairaranjha/.rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/zunairaranjha/Desktop/redis_chat/vendor/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220914-45461-v4bgzf sitelibdir\=./.gem.20220914-45461-v4bgzf clean
+
+current directory: /Users/zunairaranjha/Desktop/redis_chat/vendor/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220914-45461-v4bgzf sitelibdir\=./.gem.20220914-45461-v4bgzf
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/zunairaranjha/Desktop/redis_chat/vendor/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220914-45461-v4bgzf sitelibdir\=./.gem.20220914-45461-v4bgzf install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20220914-45461-v4bgzf/bootsnap
